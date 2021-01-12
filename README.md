@@ -9,7 +9,7 @@ Esse é meu repositório para meus projetos de Data Science. Neste repositório 
 
 **Background in:** Python, Machine Learning.
 
-**Links:**
+*Links:*
 
 * [LinkedIn](https://www.linkedin.com/in/marco-aurelio-santos-albuquerque-b9763959/)
 
