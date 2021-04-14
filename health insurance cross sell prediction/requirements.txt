@@ -77,7 +77,7 @@ threadpoolctl==2.1.0
 tornado @ file:///C:/ci/tornado_1606942392901/work
 tqdm==4.59.0
 traitlets @ file:///home/ktietz/src/ci/traitlets_1611929699868/work
-urllib3==1.26.3
+urllib3==1.26.4
 visions==0.6.0
 wcwidth @ file:///tmp/build/80754af9/wcwidth_1593447189090/work
 webencodings==0.5.1
