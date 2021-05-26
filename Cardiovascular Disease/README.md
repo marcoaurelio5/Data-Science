@@ -1,6 +1,8 @@
 # Cardiovascular Disease
 
-<img src="/img/cardiovascular_disease.jpg" height="413" width="400">
+<p align="center">
+<img src="/img/cardiovascular_disease.jpg" >
+</p>
 
 ## In this project called "Cardiovascular Disease Dataset", my goal is to predict (give an early diagnosis) which patient will develop heart problems using Machine Learning. Also through data analysis, it is possible to gain insights from the data and hypothesize which factors are the biggest cause of these heart problems.
 
