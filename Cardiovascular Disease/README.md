@@ -6,7 +6,19 @@
 
 # 1. Business Problem.
 
+Uma empresa especializada em detecção de doenças cardíacas tem como seu modelo de negócio o diagnóstico precoce de uma doença cardiovascular por um preço.
+
+Meu objetivo como Data Scientist é criar um ferramenta de classificação de doentes, como uma precisão estável. E responder as perguntas abaixo:
+
+- Qual a Acurácia e a Precisão da ferramenta?
+- Quanto lucro a Cardio Catch Diseases passará a ter com a nova ferramenta?
+- Qual a Confiabilidade do resultado dados pela nova ferramenta?
+
 # 2. Business Assumptions.
+
+Atualmente o diagnóstico é feito por uma equipe de especialistas e a precisão fica em torno de 55% a 65% devido a complexidade do diagnóstico e a fadiga da equipe. Cada diagnóstico tem um custo em torno de R$1000,00 e o preço pago pelo cliente varia em torno da precisão conseguida pelos especialistas.
+
+O cliente paga R$500,00 a cada 5% de acurácia acima de 50%. Por exemplo, para uma precisão de 55%, o diagnóstico custa R$500,00 para o cliente, para uma precisão de 60%, o valor é de R$ 1000,00 e assim por diante. Se a precisão do diagnóstico for 50% o cliente não paga por ele. Ou seja, em alguns momentos a empresa tem prejuizos.
 
 # 3. Solution Strategy
 
@@ -14,7 +26,17 @@ My strategy to solve this challenge was:
 
 **Step 01. Data Description:**
 
-**Step 02. Feature Engineering:**
+**Step 02. Feature Engineering:** 
+
+A partir das variáveis que o dataset oferece, criei novas variáveis para aumentar a precisão do modelo. As variáveis criadas são:
+
+- Soma total dos fatores de risco dos pacientes.
+- Soma total dos maus hábitos dos pacientes.
+- Influência da atividade física nos pacientes com fatores de risco.
+- Influêcia da atividade física nos pacientes com maus hábitos.
+- IMC.
+- Grau de obesidade.
+- Uma divisão da pressão alta pela pressão baixa.
 
 **Step 03. Data Filtering:**
 
