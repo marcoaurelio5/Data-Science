@@ -4,7 +4,7 @@
 <img src="img/cardiovascular_disease.jpg" >
 </p>
 
-## In this project called "Cardiovascular Disease Dataset", my goal is to predict (give an early diagnosis) which patient will develop heart problems using Machine Learning. Also through data analysis, it is possible to gain insights from the data and hypothesize which factors are the biggest cause of these heart problems.
+## Neste dataset/projeto denominado "Conjunto de Dados de Doenças Cardiovasculares", meu objetivo é prever (fazer um diagnóstico precoce) qual paciente desenvolverá problemas cardíacos utilizando o Aprendizado de Máquina. Também por meio da análise dos dados, é possível obter insights e fazer a hipóteses de quais fatores são a maior causa desses problemas cardíacos.
 
 #### This project was made by Marco Albuquerque.
 
