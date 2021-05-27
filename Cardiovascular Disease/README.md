@@ -88,7 +88,9 @@ DecisionTreeClassifier
 
 H1 - Pessoas com mais de 60 anos tem duas vezes mais chances de ter problema no coração do que uma pessoa com menos de 60 anos.
 
-Falso - Pessoas com mais de 60 anos tem em média sete vezes mais chances de ter problemas no coração
+Falso - Pessoas com mais de 60 anos tem em média sete vezes mais chances de ter problemas no coração.
+
+<img src="img/h1.png" >
 
 **Hypothesis 02:**
 
@@ -96,11 +98,15 @@ H2 - Pressão alta acima de 140 aumenta duas vezes o risco de ter problema no co
 
 Falso - Pressão alta acima de 140 aumenta três vezes o risco de ter problemas no coração.
 
+<img src="img/h2.png" >
+
 **Hypothesis 03:**
 
-H2 - Em média, um gênero tem mais chances de ter problema no coração do que o outro.
+H3 - Em média, um gênero tem mais chances de ter problema no coração do que o outro.
 
 Falso - Homens e mulheres tem a mesma chance de ter problemas no coração.
+
+<img src="img/h3.png" >
 
 # 5. Machine Learning Model Applied
 
