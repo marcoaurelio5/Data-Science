@@ -56,9 +56,9 @@ Realizei análises de dados univariada, bivariada e multivariada. Também fiz te
 
 Alguns métodos utilizados:
 
-MinMaxScaller
-StandarScaller
-Frequency Encoding
+- MinMaxScaller
+- StandarScaller
+- Frequency Encoding
 
 **Step 06. Feature Selection:**
 
@@ -68,13 +68,13 @@ Utilizei dois algoritmos para selecionar as melhores variáveis (boruta e import
 
 Modelos utilizados:
 
-GradientBoostingClassifier 
-LGBM
-Regressão Logistica
-SGDClassifier
-RandomForestClassifier
-ExtraTreesClassifier
-DecisionTreeClassifier
+- GradientBoostingClassifier 
+- LGBM
+- Regressão Logistica
+- SGDClassifier
+- RandomForestClassifier
+- ExtraTreesClassifier
+- DecisionTreeClassifier
 
 **Step 08. Hyperparameter Fine Tunning:**
 
