@@ -28,7 +28,9 @@ O cliente paga R$500,00 a cada 5% de acurácia acima de 50%. Por exemplo, para u
 
 My strategy to solve this challenge was:
 
-**Step 01. Data Description:**
+**Step 01. Data Description:** 
+
+Na análise descritiva eu busquei entender um pouco os dados, como o shape, o tipo dos dados, o valor mínimo e máximo de cada variável, os quartis e os dados NaN.
 
 **Step 02. Feature Engineering:** 
 
@@ -44,13 +46,35 @@ A partir das variáveis que o dataset oferece, criei novas variáveis para aumen
 
 **Step 03. Data Filtering:**
 
+Remoção de alguns outliers (como dados de pressão alta fora do comum) e demais sujeiras que poderia prejudicar o algoritmo de Machine Learning.
+
 **Step 04. Exploratory Data Analysis:**
+
+Realizei análises de dados univariada, bivariada e multivariada. Também fiz testes estatísticos nas variáveis e criei hipóteses.  
 
 **Step 05. Data Preparation:**
 
+Alguns métodos utilizados:
+
+MinMaxScaller
+StandarScaller
+Frequency Encoding
+
 **Step 06. Feature Selection:**
 
+Utilizei dois algoritmos para selecionar as melhores variáveis (boruta e importância das árvores) e também selecionei algumas variáveis que julguei importante depois da EDA. 
+
 **Step 07. Machine Learning Modelling:**
+
+Modelos utilizados:
+
+GradientBoostingClassifier 
+LGBM
+Regressão Logistica
+SGDClassifier
+RandomForestClassifier
+ExtraTreesClassifier
+DecisionTreeClassifier
 
 **Step 08. Hyperparameter Fine Tunning:**
 
@@ -62,15 +86,21 @@ A partir das variáveis que o dataset oferece, criei novas variáveis para aumen
 
 **Hypothesis 01:**
 
-**True/False.**
+H1 - Pessoas com mais de 60 anos tem duas vezes mais chances de ter problema no coração do que uma pessoa com menos de 60 anos.
+
+Falso - Pessoas com mais de 60 anos tem em média sete vezes mais chances de ter problemas no coração
 
 **Hypothesis 02:**
 
-**True/False.**
+H2 - Pressão alta acima de 140 aumenta duas vezes o risco de ter problema no coração.
+
+Falso - Pressão alta acima de 140 aumenta três vezes o risco de ter problemas no coração.
 
 **Hypothesis 03:**
 
-**True/False.**
+H2 - Em média, um gênero tem mais chances de ter problema no coração do que o outro.
+
+Falso - Homens e mulheres tem a mesma chance de ter problemas no coração.
 
 # 5. Machine Learning Model Applied
 
