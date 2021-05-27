@@ -90,7 +90,7 @@ H1 - Pessoas com mais de 60 anos tem duas vezes mais chances de ter problema no 
 
 Falso - Pessoas com mais de 60 anos tem em média sete vezes mais chances de ter problemas no coração.
 
-<img src="img/h1.png" >
+<img src="img/h1.PNG" >
 
 **Hypothesis 02:**
 
@@ -98,7 +98,7 @@ H2 - Pressão alta acima de 140 aumenta duas vezes o risco de ter problema no co
 
 Falso - Pressão alta acima de 140 aumenta três vezes o risco de ter problemas no coração.
 
-<img src="img/h2.png" >
+<img src="img/h2.PNG" >
 
 **Hypothesis 03:**
 
@@ -106,7 +106,7 @@ H3 - Em média, um gênero tem mais chances de ter problema no coração do que 
 
 Falso - Homens e mulheres tem a mesma chance de ter problemas no coração.
 
-<img src="img/h3.png" >
+<img src="img/h3.PNG" >
 
 # 5. Machine Learning Model Applied
 
