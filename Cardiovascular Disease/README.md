@@ -24,6 +24,11 @@ Atualmente o diagnóstico é feito por uma equipe de especialistas e a precisão
 
 O cliente paga R$500,00 a cada 5% de acurácia acima de 50%. Por exemplo, para uma precisão de 55%, o diagnóstico custa R$500,00 para o cliente, para uma precisão de 60%, o valor é de R$ 1000,00 e assim por diante. Se a precisão do diagnóstico for 50% o cliente não paga por ele. Ou seja, em alguns momentos a empresa tem prejuizos.
 
+| Exam Accuracy | Price          | Rules                                    | Example                         |
+|:--------------|:---------------|:-----------------------------------------|:--------------------------------|
+| Above 50%     | min \$500\.00  | \+\$500 for each additional 5% precision | Precision = 55% \-> \$1,000\.00 |
+| Up to 50%     | $0\.00         | N/A                                      | N/A                             |
+
 # 3. Solution Strategy
 
 My strategy to solve this challenge was:
@@ -109,6 +114,8 @@ Falso - Homens e mulheres tem a mesma chance de ter problemas no coração.
 <img src="img/h3.PNG" >
 
 # 5. Machine Learning Model Applied
+
+<img src="img/Modelos.PNG" >
 
 # 6. Machine Learning Modelo Performance
 
