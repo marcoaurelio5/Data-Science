@@ -37,7 +37,7 @@ My strategy to solve this challenge was:
 
 **Step 01. Data Description:** 
 
-Na análise descritiva eu busquei entender um pouco os dados, como o shape, o tipo dos dados, o valor mínimo e máximo de cada variável, os quartis e os dados NaN.
+Na análise descritiva, busquei entender um pouco os dados, como o shape, o tipo dos dados, o valor mínimo e máximo de cada variável, os quartis e os dados NaN.
 
 **Step 02. Feature Engineering:** 
 
