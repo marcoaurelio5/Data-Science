@@ -6,6 +6,8 @@
 
 ## Neste dataset/projeto denominado "Conjunto de Dados de Doenças Cardiovasculares", meu objetivo é prever (fazer um diagnóstico precoce) qual paciente desenvolverá problemas cardíacos utilizando o Aprendizado de Máquina. Também por meio da análise dos dados, é possível obter insights e fazer a hipóteses de quais fatores são a maior causa desses problemas cardíacos.
 
+Para ver o notebook completo acesse https://github.com/marcoaurelio5/Data-Science/blob/master/Cardiovascular%20Disease/notebook/Cardiovascular%20Disease%20Dataset.ipynb
+
 #### This project was made by Marco Albuquerque.
 
 # 1. Business Problem.
@@ -24,10 +26,10 @@ Atualmente o diagnóstico é feito por uma equipe de especialistas e a precisão
 
 O cliente paga R$500,00 a cada 5% de acurácia acima de 50%. Por exemplo, para uma precisão de 55%, o diagnóstico custa R$500,00 para o cliente, para uma precisão de 60%, o valor é de R$ 1000,00 e assim por diante. Se a precisão do diagnóstico for 50% o cliente não paga por ele. Ou seja, em alguns momentos a empresa tem prejuizos.
 
-| Exam Accuracy | Price          | Rules                                    | Example                         |
-|:--------------|:---------------|:-----------------------------------------|:--------------------------------|
-| Above 50%     | min \$500\.00  | \+\$500 for each additional 5% precision | Precision = 55% \-> \$1,000\.00 |
-| Up to 50%     | $0\.00         | N/A                                      | N/A                             |
+|Acurácia Exame | Preço          | Condições                                  | Exemplo                         |
+|:--------------|:---------------|:-------------------------------------------|:--------------------------------|
+| Acima de 50%  | min \$500\.00  | \+\$500 para cada 5% de precisão adicional | Precisão = 55% \-> \$1,000\.00  |
+| Até 50%       | $0\.00         | N/A                                        | N/A                             |
 
 # 3. Solution Strategy
 
@@ -83,9 +85,11 @@ Modelos utilizados:
 
 **Step 08. Hyperparameter Fine Tunning:**
 
+Tunar o melhor modelo através do GridSearchCV para obter os melhores parâmetros e melhor resultado do modelo.
+
 **Step 09. Convert Model Performance to Business Values:**
 
-**Step 10. Deploy Modelo to Production:**
+Demonstrar como fica o faturamento da empresa sem um modelo de Machine Learning e com um modelo de Machine Learning.
 
 # 4. Top 3 Data Insights
 
@@ -119,13 +123,23 @@ Falso - Homens e mulheres tem a mesma chance de ter problemas no coração.
 
 # 6. Machine Learning Modelo Performance
 
+<img src="img/Matriz_Confusao.PNG" >
+
+O nosso modelo de Machine Learning prevê corretamente:
+
+75% dos casos dos pacientes que terão problemas no coração.
+66% dos casos dos pacientes que não terão problemas no coração.
+
 # 7. Business Results
+
+<img src="img/business_results.PNG" >
+
+Utilizando um modelo de Machine Learning conseguimos um aumento no faturamento de quase 100 Mil dólares no melhor cénario.
+Utilizando um modelo de Machine Learning conseguimos um aumento no faturamento de quase 135 mil dólares no pior cénario.
 
 # 8. Conclusions
 
-# 9. Lessons Learned
-
-# 10. Next Steps to Improve
+O modelo de Machine Learning consegue aumentar consideravelmente o faturamento da empresa.
 
 # LICENSE
 
