@@ -10,7 +10,7 @@ certifi==2020.12.5
 cffi @ file:///C:/ci/cffi_1613247279197/work
 chardet==4.0.0
 colorama @ file:///tmp/build/80754af9/colorama_1607707115595/work
-cryptography==3.4.7
+cryptography==39.0.1
 cycler==0.10.0
 decorator @ file:///tmp/build/80754af9/decorator_1617916966915/work
 defusedxml @ file:///tmp/build/80754af9/defusedxml_1615228127516/work
